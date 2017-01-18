@@ -161,7 +161,7 @@
                         <systemProperties>
                             <runtime.environment>integrationdev</runtime.environment>
                         </systemProperties>
-                        <timeout>1200000</timeout>
+                        <timeout>1800000</timeout>
                     </container>
                     <configuration>
                         <properties>
