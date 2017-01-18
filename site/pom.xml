@@ -145,6 +145,9 @@
                         <goals>
                             <goal>start</goal>
                         </goals>
+					  <configuration>
+						<timeout>60000</timeout>
+					  </configuration>						
                     </execution>
                     <execution>
                         <id>stop-container</id>
@@ -152,6 +155,9 @@
                         <goals>
                             <goal>stop</goal>
                         </goals>
+						  <configuration>
+							<timeout>10000</timeout>
+						  </configuration>						
                     </execution>
                 </executions>
 
@@ -161,7 +167,6 @@
                         <systemProperties>
                             <runtime.environment>integrationdev</runtime.environment>
                         </systemProperties>
-                        <timeout>600000</timeout>
                     </container>
                     <configuration>
                         <properties>
