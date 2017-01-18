@@ -146,7 +146,7 @@
                             <goal>start</goal>
                         </goals>
 					  <configuration>
-						<timeout>60000</timeout>
+						<timeout>12000000</timeout>
 					  </configuration>						
                     </execution>
                     <execution>
